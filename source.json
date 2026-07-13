@@ -1,0 +1,47 @@
+{
+  "name": "Puffer",
+  "subtitle": "Puffco Proxy utilities",
+  "description": "Apps for connecting to and controlling a Puffco Proxy.",
+  "iconURL": "https://raw.githubusercontent.com/jaredthejellyfish/puffer-altstore/main/icon.png",
+  "website": "https://github.com/jaredthejellyfish/puffer-altstore",
+  "tintColor": "#17131F",
+  "nsfw": false,
+  "featuredApps": [
+    "com.jaredthejelly.puffer"
+  ],
+  "apps": [
+    {
+      "name": "Puffer",
+      "bundleIdentifier": "com.jaredthejelly.puffer",
+      "developerName": "Jared Hernandez",
+      "subtitle": "Connect to and control your Puffco Proxy.",
+      "localizedDescription": "Discover, pair with, and control a Puffco Proxy over Bluetooth, including heat profiles, device settings, and live session metrics.",
+      "iconURL": "https://raw.githubusercontent.com/jaredthejellyfish/puffer-altstore/main/icon.png",
+      "tintColor": "#17131F",
+      "category": "lifestyle",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "1",
+          "date": "2026-07-13T03:36:35.907Z",
+          "localizedDescription": "Initial AltStore release.",
+          "downloadURL": "https://github.com/jaredthejellyfish/puffer-altstore/releases/download/v1.0.0/Puffer-v1.0.0.ipa",
+          "size": 17639097,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "aps-environment",
+          "com.apple.security.application-groups",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Allow Puffer to connect to and control your Puffco Proxy.",
+          "NSLocalNetworkUsageDescription": "Expo Dev Launcher uses the local network to discover and connect to development servers running on your computer."
+        }
+      }
+    }
+  ],
+  "news": []
+}
