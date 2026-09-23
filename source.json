@@ -21,6 +21,15 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "2.0.0",
+          "buildVersion": "2",
+          "date": "2026-09-23T09:29:21.864Z",
+          "localizedDescription": "Apple Watch app with complication, Home and Lock Screen widget, server-driven Live Activity and notifications (including fully charged), device location tracking, and iOS 27 compatibility.",
+          "downloadURL": "https://github.com/jaredthejellyfish/puffer-altstore/releases/download/v2.0.0/Puffer-v2.0.0.ipa",
+          "size": 20655985,
+          "minOSVersion": "16.4"
+        },
+        {
           "version": "1.0.0",
           "buildVersion": "1",
           "date": "2026-07-13T03:36:35.907Z",
@@ -38,6 +47,8 @@
         ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "Allow Puffer to connect to and control your Puffco Proxy.",
+          "NSLocationWhenInUseUsageDescription": "Puffer notes where your phone was the last time it was next to your bridge, so you can find the bridge later.",
+          "NSFaceIDUsageDescription": "Allow Puffer to access your Face ID biometric data.",
           "NSLocalNetworkUsageDescription": "Expo Dev Launcher uses the local network to discover and connect to development servers running on your computer."
         }
       }
