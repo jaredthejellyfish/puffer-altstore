@@ -21,6 +21,15 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "2.1.1",
+          "buildVersion": "4",
+          "date": "2026-11-16T05:59:05.451Z",
+          "localizedDescription": "Adds account sync for settings, strains, profiles, and effects; improved multi-device bridge controls and device names; Peak Pro support and lighting editor improvements. Includes fixes for connection handling and notifications. Phone-only AltStore package.",
+          "downloadURL": "https://github.com/jaredthejellyfish/puffer-altstore/releases/download/v2.1.1/Puffer-v2.1.1.ipa",
+          "size": 24483719,
+          "minOSVersion": "16.4"
+        },
+        {
           "version": "2.1.0",
           "buildVersion": "3",
           "date": "2026-11-07T08:19:05.319Z",
@@ -51,6 +60,7 @@
       "appPermissions": {
         "entitlements": [
           "aps-environment",
+          "com.apple.developer.applesignin",
           "com.apple.developer.nfc.readersession.formats",
           "com.apple.security.application-groups",
           "keychain-access-groups"
